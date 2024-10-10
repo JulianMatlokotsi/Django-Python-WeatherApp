@@ -121,8 +121,8 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 
-# OpenWeather API Key
-# API_KEY = "your_actual_api_key_here"
+# OpenWeather API
+OPENWEATHER_API_KEY = os.environ.get('OPENWEATHER_API_KEY')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
